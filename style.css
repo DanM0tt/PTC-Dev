@@ -1,0 +1,199 @@
+html {
+    padding: 50px;
+    background-color: rgb(26, 26, 26);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: azure;
+    z-index: 1000;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 150px;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.conex {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.geral {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: row;
+}
+
+.main {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 180px;
+    margin-left: 260px;
+    padding: 20px;
+    align-items: center;
+}
+
+.main_filme {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 180px;
+    margin-left: 260px;
+    margin-top: 120px;
+    padding: 20px;
+    align-items: center;
+}
+
+.main_jogo {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 180px;
+    margin-left: 260px;
+    margin-top: 70px;
+    padding: 20px;
+    align-items: center;
+}
+
+.recomendacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100px;
+    height: calc(100vh - 100px);
+    background-color: greenyellow;
+}
+
+.sidebar_sm {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    width: 100px;
+    height: calc(100vh - 100px);
+    background-color: greenyellow;
+}
+
+.insidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-bottom: 50px;
+    gap: 720px;
+}
+
+.perfil {
+    margin-top: 80px;
+    width: 600px;
+    height: auto;
+    border-radius: 100%;
+}
+
+#ativo {
+    color: rgb(26, 26, 26);
+    background-color: white;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    padding: 5px;
+}
+
+.button:hover {
+    color: rgb(26, 26, 26);
+    background-color: white;
+}
+
+.link_img {
+    width: 47px;
+    height: auto;
+}
+
+.seta {
+    width: 70px;
+    height: 70px;
+}
+
+.link_text {
+    color: black;
+}
+
+#mr {text-align: center;
+    font-size: large;
+    margin-right: 5px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 200px;
+    margin-left: 200px;
+    color: white;
+}
+
+.campos_sobre_mim {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+
+.perfil_sm {
+    margin-top: 80px;
+    width: 500px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.nome {
+    color: black;
+}
